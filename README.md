@@ -185,7 +185,7 @@ If macOS says the file or app cannot be opened because it is from an unidentifie
 1. Make sure you downloaded the project from the GitHub repository(main file , training file and the dataset json)
 2. Open Terminal.
 3. `cd` into the project folder.
-4. Run `python3 main.py` or `python3 main-tr.py`
+4. Run `python3 main.py` 
 
 For a guess-only version, use `main.py`. For a trainable+guess version, use `main-tr.py`.
 
