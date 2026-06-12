@@ -16,7 +16,7 @@ A silly small Python app made in VSCODE that guesses handwritten digits from 0 t
 1) main.py - the GUI app
 2) training.py - training and prediction logic
 3) digit_data.json - training dataset
-4) main-tr.py - the GUI app + self-training feature 
+4) main-tr.py - the GUI app + training feature 
 
 (if you want to add more data excluding the already 102 samples , use the main-tr.py)
 
