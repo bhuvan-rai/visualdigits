@@ -4,28 +4,6 @@ A silly small Python app made in VS Code that guesses handwritten digits from 0 
 
 The app uses a simple manually trained dataset, NOT MNIST. You draw a digit, tell the app what digit it is, and it saves that example. After enough examples are trained, the app can guess new drawings.
 
-## Screenshots
-
-Blank app screen:
-
-![Blank app screen](screenshots/app-blank.png)
-
-Guessing a 6:
-
-![Guessing digit 6](screenshots/app-test-6.png)
-
-Guessing a 7:
-
-![Guessing digit 7](screenshots/app-test-7.png)
-
-Guessing a 9:
-
-![Guessing digit 9](screenshots/app-test-9.png)
-
-Training a 6:
-
-![Training digit 6](screenshots/app-train-6.png)
-
 ## Features
 
 - Draw digits with the mouse
@@ -169,6 +147,28 @@ Currently it only contains 212 samples in the original training note, but this c
 The drawing is converted into a small 28 x 28 grid of pixels. When you click a training button, the app saves that grid with the correct digit label.
 
 When guessing, the app compares your new drawing with the saved examples and chooses the closest matching digit.
+
+## Screenshots
+
+Blank app screen:
+
+![Blank app screen](screenshots/app-blank.png)
+
+Guessing a 6:
+
+![Guessing digit 6](screenshots/app-test-6.png)
+
+Guessing a 7:
+
+![Guessing digit 7](screenshots/app-test-7.png)
+
+Guessing a 9:
+
+![Guessing digit 9](screenshots/app-test-9.png)
+
+Training a 6:
+
+![Training digit 6](screenshots/app-train-6.png)
 
 ## macOS Gatekeeper 
 
