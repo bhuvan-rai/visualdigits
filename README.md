@@ -1,6 +1,6 @@
 ﻿# Visual Digits
 
-A silly small Python app made in VS Code that guesses handwritten digits from 0 to 9.
+A silly small Python app made in VS Code that guesses cursorwritten digits from 0 to 9.
 
 The app uses a simple manually trained dataset, NOT MNIST. You draw a digit, tell the app what digit it is, and it saves that example. After enough examples are trained, the app can guess new drawings.
 
