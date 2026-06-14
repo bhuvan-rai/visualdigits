@@ -2,12 +2,16 @@ import json
 import math
 import os
 from collections import Counter
+import sys
 
+def app_folder():
+    if getattr(sys, "frozen", False):
+        return os.path.dirname(os.path.dirname(sys.executable))
+    return os.path.dirname(os.path.abspath(__file__))
 
+MODEL_FILE = os.path.join(app_folder(), "digit_data.json")
 GRID_SIZE = 28
 PIXEL_COUNT = GRID_SIZE * GRID_SIZE
-MODEL_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "digit_data.json")
-
 
 class DigitTrainer:
     def __init__(self, model_path=MODEL_FILE, k=3):
